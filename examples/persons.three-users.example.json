@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "persons": [
+    { "name": "Alice", "active": true, "suid": "111111" },
+    { "name": "Bob",   "active": true, "suid": "222222" },
+    { "name": "Chris", "active": false, "suid": "333333" }
+  ]
+}

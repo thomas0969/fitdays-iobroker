@@ -1,0 +1,17 @@
+{
+  "name": "fitdays-iobroker-bridge",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Reproducible FitDays to ioBroker bridge with MySQL history support",
+  "type": "module",
+  "engines": { "node": ">=22" },
+  "scripts": {
+    "fetch": "node src/fitdays-fetch.mjs",
+    "discover": "node scripts/discover-persons.mjs",
+    "test": "node --test tests/*.test.mjs"
+  },
+  "dependencies": {
+    "fitdays-api": "1.0.3"
+  },
+  "license": "MIT"
+}

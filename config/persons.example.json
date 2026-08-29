@@ -1,0 +1,11 @@
+{
+  "schemaVersion": 1,
+  "persons": [
+    {
+      "name": "Person1",
+      "active": true,
+      "suid": "REPLACE_WITH_FITDAYS_SUID",
+      "uid": "OPTIONAL_ACCOUNT_UID"
+    }
+  ]
+}
