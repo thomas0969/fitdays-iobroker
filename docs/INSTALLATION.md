@@ -19,9 +19,9 @@ iobroker list instances | grep -E 'javascript|sql'
 Empfohlener Pfad:
 
 ```bash
-sudo mkdir -p /opt/fitdays-iobroker
-sudo chown "$USER":"$USER" /opt/fitdays-iobroker
-git clone <REPO-URL> /opt/fitdays-iobroker
+cd /opt
+sudo git clone https://github.com/thomas0969/fitdays-iobroker.git
+sudo chown -R "$USER":iobroker /opt/fitdays-iobroker
 cd /opt/fitdays-iobroker
 npm install
 ```
@@ -38,7 +38,7 @@ Minimal:
 
 ```ini
 FITDAYS_EMAIL=user@example.com
-FITDAYS_PASSWORD=secret
+FITDAYS_PASSWORD=change-me
 FITDAYS_REGION=eu
 FITDAYS_COUNTRY=DE
 FITDAYS_LANGUAGE=de
