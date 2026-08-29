@@ -2,6 +2,16 @@
 
 Reproduzierbare Integration von **FitDays-kompatiblen Bluetooth-Körperwaagen** in **ioBroker** mit optionaler **MySQL-Historie über `sql.0`**.
 
+## Projektstatus
+
+Dieses Projekt ist in seinem vorgesehenen Funktionsumfang **abgeschlossen**.
+
+Es wurde für die Integration von FitDays-kompatiblen Körperwaagen in ioBroker entwickelt und dokumentiert. Der veröffentlichte Stand bildet die funktionierende und getestete Lösung ab.
+
+Eine kontinuierliche Weiterentwicklung, Anpassung an zukünftige Änderungen der FitDays-API oder dauerhafter Support sind **nicht garantiert**. Insbesondere Änderungen am inoffiziellen `fitdays-api`-Paket oder an der FitDays-Cloud können dazu führen, dass zukünftig Anpassungen erforderlich werden.
+
+Fehlerberichte, Verbesserungsvorschläge und Pull Requests können weiterhin über GitHub eingereicht werden, es besteht jedoch keine Zusage für deren Bearbeitung oder Umsetzung.
+
 Das Projekt trennt die FitDays-Cloud-Anbindung bewusst vom ioBroker-JavaScript-Adapter:
 
 ```text
