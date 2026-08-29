@@ -1,0 +1,7 @@
+node_modules/
+.env
+*.log
+fitdays-data.json
+fitdays-data.json.tmp
+runtime/
+.DS_Store
