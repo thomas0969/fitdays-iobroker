@@ -71,8 +71,11 @@ Die verwendete Bibliothek `fitdays-api` ist ein inoffizielles SDK. Dieses Reposi
 ## Schnellstart
 
 ```bash
-git clone <DEINE-REPO-URL> fitdays-iobroker
-cd fitdays-iobroker
+cd /opt
+sudo git clone https://github.com/thomas0969/fitdays-iobroker.git
+sudo chown -R "$USER":iobroker /opt/fitdays-iobroker
+cd /opt/fitdays-iobroker
+
 npm install
 cp .env.example .env
 chmod 600 .env
