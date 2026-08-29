@@ -30,4 +30,4 @@ Vor dem produktiven Einsatz des empfohlenen Modus in den Objekt-Custom-Einstellu
 
 ## Alte Test-Duplikate
 
-Frühere Testinstallationen können zusätzliche Werte zum Import-/Sync-Zeitpunkt enthalten. Diese können im `sql.0` Datenbrowser oder über `delete`/`deleteRange` entfernt werden. Vorher Backup erstellen.
+Frühere Testinstallationen können zusätzliche Werte zum Import-/Sync-Zeitpunkt enthalten. Diese können nach vorheriger Kontrolle der betroffenen Zeitstempel gezielt entfernt werden. Vor jeder Bereinigung sollte ein Datenbank-Backup erstellt werden. deleteRange nur verwenden, wenn der zu löschende Zeitraum eindeutig bestimmt wurden. Vorher Backup erstellen.
